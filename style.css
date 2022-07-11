@@ -197,8 +197,8 @@ main {
     width: 0%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 1;
+    backdrop-filter: blur(2px);
+    z-index: 0;
 }
 
 /* media queries to change the display layout */
@@ -274,6 +274,6 @@ main {
         background-color: white;
         overflow-x: hidden;
         transition: 0.5s;
-        padding-top: 60px;
+        padding-top: 10%;
     }
 }
