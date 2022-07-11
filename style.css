@@ -190,11 +190,9 @@ main {
 #mobile-pic {
     display: none;
 }
-@media screen and (max-width: 980px) {
-    /* body {
-        background: black;
-    } */
 
+/* media queries to change the display layout */
+@media screen and (max-width: 980px) {
     main {
         width: 90%;
         display: flex;
@@ -238,10 +236,9 @@ main {
         width: 90%;
     }
 }
+
+/* media queries to make the buttons disappear */
 @media screen and (max-width: 750px) {
-    header {
-        display: flex;
-    }
     header #logo-img {
         width: 100px;
     }
@@ -253,8 +250,4 @@ main {
         background: none;
         border: none;
     }
-    /* .header-btn-container {
-        width: 100%;
-        justify-content: space-evenly;
-    } */
 }
