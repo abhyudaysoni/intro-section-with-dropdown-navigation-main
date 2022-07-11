@@ -27,7 +27,7 @@ header {
     align-items: center;
 }
 header #logo-img {
-    max-width: 100%;
+    width: 100px;
 }
 header #logo-img:hover {
     cursor: pointer;
@@ -83,7 +83,7 @@ header button:hover {
     justify-content: space-between;
     border-radius: 10px;
     /* border: 1px solid black; */
-    box-shadow: 20px 20px 50px gray;
+    box-shadow: 20px 20px 300px gray;
 }
 .features-menu button {
     font-size: small;
@@ -110,7 +110,7 @@ header button:hover {
     justify-content: space-between;
     border-radius: 10px;
     /* border: 1px solid black; */
-    box-shadow: 20px 20px 50px gray;
+    box-shadow: 20px 20px 300px gray;
 }
 .company-menu button {
     font-size: small;
@@ -239,6 +239,12 @@ main {
     }
 }
 @media screen and (max-width: 750px) {
+    header {
+        display: flex;
+    }
+    header #logo-img {
+        width: 100px;
+    }
     header button {
         display: none;
     }
@@ -247,8 +253,8 @@ main {
         background: none;
         border: none;
     }
-    .header-btn-container {
+    /* .header-btn-container {
         width: 100%;
         justify-content: space-evenly;
-    }
+    } */
 }

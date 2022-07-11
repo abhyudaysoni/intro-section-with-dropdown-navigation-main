@@ -12,8 +12,8 @@ function openFeaturesMenu() {
     }
 }
 
-featuresBtn.addEventListener("mouseover", openFeaturesMenu);
-featuresBtn.addEventListener("mouseout", openFeaturesMenu);
+// featuresBtn.addEventListener("mouseover", openFeaturesMenu);
+// featuresBtn.addEventListener("mouseout", openFeaturesMenu);
 featuresBtn.addEventListener("click", openFeaturesMenu);
 
 function openCompanyMenu() {
@@ -26,6 +26,6 @@ function openCompanyMenu() {
     }
 }
 
-companyBtn.addEventListener("mouseover", openCompanyMenu);
-companyBtn.addEventListener("mouseout", openCompanyMenu);
+// companyBtn.addEventListener("mouseover", openCompanyMenu);
+// companyBtn.addEventListener("mouseout", openCompanyMenu);
 companyBtn.addEventListener("click", openCompanyMenu);
