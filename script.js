@@ -37,10 +37,12 @@ const hamburger = document.querySelector("#hamburger-btn");
 
 function openSideNav() {
     sideNav.style.width = "50%";
+    body.setAttribute("scroll", "no");
     overlay.style.width = "100%";
     sideNav.classList.add("active");
 }
 function closeSideNav() {
+    body.setAttribute("scroll", "yes");
     sideNav.style.width = "0%";
     overlay.style.width = "0%";
     sideNav.classList.remove("active");
