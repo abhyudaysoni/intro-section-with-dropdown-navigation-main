@@ -149,7 +149,7 @@ main {
     margin: 5% auto;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .main-left {
     display: flex;
