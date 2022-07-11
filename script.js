@@ -1,4 +1,7 @@
 const featuresBtn = document.querySelector("#features-dropdown-btn");
+const body = document.querySelector("body");
+const sideNav = document.querySelector(".side-nav-right");
+const overlay = document.querySelector(".overlay");
 
 const companyBtn = document.querySelector("#company-dropdown-btn");
 
@@ -29,3 +32,19 @@ function openCompanyMenu() {
 // companyBtn.addEventListener("mouseover", openCompanyMenu);
 // companyBtn.addEventListener("mouseout", openCompanyMenu);
 companyBtn.addEventListener("click", openCompanyMenu);
+
+const hamburger = document.querySelector("#hamburger-btn");
+
+function openSideNav() {
+    sideNav.style.width = "50%";
+    overlay.style.width = "100%";
+    sideNav.classList.add("active");
+}
+function closeSideNav() {
+    sideNav.style.width = "0%";
+    overlay.style.width = "0%";
+    sideNav.classList.remove("active");
+}
+
+hamburger.addEventListener("click", openSideNav);
+overlay.addEventListener("click", closeSideNav);
