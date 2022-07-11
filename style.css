@@ -149,7 +149,7 @@ main {
     margin: 5% auto;
     display: grid;
     justify-content: space-between;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .main-left {
     display: flex;
@@ -274,7 +274,7 @@ main {
         right: 0;
         background-color: white;
         overflow-x: hidden;
-        transition: 0.5s;
+        transition: 0.25s;
         padding-top: 10%;
     }
 }

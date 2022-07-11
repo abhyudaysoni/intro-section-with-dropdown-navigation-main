@@ -36,7 +36,7 @@ companyBtn.addEventListener("click", openCompanyMenu);
 const hamburger = document.querySelector("#hamburger-btn");
 
 function openSideNav() {
-    sideNav.style.width = "50%";
+    sideNav.style.width = "70%";
     body.setAttribute("scroll", "no");
     body.style.overflow = "hidden";
     overlay.style.width = "100%";
