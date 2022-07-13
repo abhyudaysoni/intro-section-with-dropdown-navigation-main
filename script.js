@@ -1,12 +1,12 @@
 const featuresBtn = document.querySelector("#features-dropdown-btn");
-const body = document.querySelector("body");
 const sideNav = document.querySelector(".side-nav-right");
 const overlay = document.querySelector(".overlay");
+const featuresMenu = document.querySelector(".features-menu");
+const companyMenu = document.querySelector(".company-menu");
 
 const companyBtn = document.querySelector("#company-dropdown-btn");
 
 function openFeaturesMenu() {
-    const featuresMenu = document.querySelector(".features-menu");
     if (featuresMenu.style.display === "flex") {
         featuresMenu.style.display = "none";
     } else {
@@ -15,12 +15,10 @@ function openFeaturesMenu() {
     }
 }
 
-// featuresBtn.addEventListener("mouseover", openFeaturesMenu);
-// featuresBtn.addEventListener("mouseout", openFeaturesMenu);
-featuresBtn.addEventListener("click", openFeaturesMenu);
+featuresBtn.addEventListener("mouseover", openFeaturesMenu);
+featuresMenu.addEventListener("mouseout", openFeaturesMenu);
 
 function openCompanyMenu() {
-    const companyMenu = document.querySelector(".company-menu");
     if (companyMenu.style.display === "flex") {
         companyMenu.style.display = "none";
     } else {
@@ -29,9 +27,8 @@ function openCompanyMenu() {
     }
 }
 
-// companyBtn.addEventListener("mouseover", openCompanyMenu);
-// companyBtn.addEventListener("mouseout", openCompanyMenu);
-companyBtn.addEventListener("click", openCompanyMenu);
+companyBtn.addEventListener("mouseover", openCompanyMenu);
+companyMenu.addEventListener("mouseout", openCompanyMenu);
 
 const hamburger = document.querySelector("#hamburger-btn");
 

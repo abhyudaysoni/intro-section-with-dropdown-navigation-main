@@ -77,13 +77,13 @@ header button:hover {
 .features-menu {
     display: none;
     position: absolute;
-    margin-top: 30px;
-    align-items: center;
+    padding: 30px 0 0 0;
+    /* align-items: center; */
     width: 7rem;
     justify-content: space-between;
     border-radius: 10px;
     /* border: 1px solid black; */
-    box-shadow: 20px 20px 300px gray;
+    /* box-shadow: 20px 20px 300px gray; */
 }
 .features-menu button {
     font-size: small;
@@ -104,13 +104,13 @@ header button:hover {
 .company-menu {
     display: none;
     position: absolute;
-    margin-top: 30px;
-    align-items: center;
+    padding: 30px 0 0 0;
+    /* align-items: center; */
     width: 7rem;
     justify-content: space-between;
     border-radius: 10px;
     /* border: 1px solid black; */
-    box-shadow: 20px 20px 300px gray;
+    /* box-shadow: 20px 20px 300px gray; */
 }
 .company-menu button {
     font-size: small;
@@ -253,9 +253,9 @@ main {
     header #logo-img {
         width: 100px;
     }
-    header-right button {
+    /* header-right button {
         display: none;
-    }
+    } */
     #hamburger-btn {
         display: block;
         background: none;
